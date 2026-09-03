@@ -1,0 +1,17 @@
+{
+  "gateway_url": "http://localhost:8080",
+  "route": "/health",
+  "configured_rps": 10,
+  "requests_sent": 30,
+  "accepted": 10,
+  "rejected": 20,
+  "rate_limited_stat": 289.0,
+  "sample_200": {
+    "status": 200,
+    "x-request-id": "85fa1b8f-dd93-9ef5-afb4-19ba4843f155"
+  },
+  "sample_429": {
+    "status": 429,
+    "x-request-id": "22dab44b-cd6d-9524-a76a-40b33ce6e149"
+  }
+}
